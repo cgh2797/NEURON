@@ -1,0 +1,44 @@
+load_file("cell.hoc")
+forsec "dend" {
+insert kap
+    nseg = 10
+    Ra = 123
+    insert pas
+    g_pas = .0001667
+    e_pas = -60.0}
+
+forsec "soma" {
+nseg = 1
+diam = 18.8
+L = 18.8
+Ra = 123.0
+insert hh
+ena = 71.5
+ek = -89.1
+gnabar_hh=0.25
+gl_hh = .0001666
+el_hh = -60.0
+}
+//forsec "dend" print psection()
+forsec "dend" print secname()
+
+objref stimfib,conMFnmda,conMFampa
+objref synA,synN
+// create an electrode in the soma
+access soma
+stimfib=new NetStim(0.5)
+synA=new GLU(0.5)
+synN=new NMDA(0.5)
+
+conMFampa=new NetCon(stimfib, synA,-20, 0.000, 1e-3)
+conMFnmda=new NetCon(stimfib, synN,-20, 0.000, 1e-3)
+
+
+objectvar stim
+stim = new IClamp(0.5)
+
+stim.del = 100
+stim.dur = 100
+stim.amp = 0.20
+
+tstop = 300
