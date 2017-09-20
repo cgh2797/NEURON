@@ -1,2 +1,4 @@
 # Neuro
-Computational Neuroscience
+Neuroinformatics
+
+Hello Neuroinformatics
