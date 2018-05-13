@@ -1,4 +1,2 @@
 # Neuro
-Neuroinformatics
-
-Hello Neuroinformatics
+Hi
