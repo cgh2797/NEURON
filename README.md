@@ -1,4 +1,4 @@
-NEURON simulation
+# NEURON simulation
 
 ## Neuron
 https://www.neuron.yale.edu/neuron/
