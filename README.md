@@ -1,5 +1,4 @@
-# Neuron
-
+## Neuron
 https://www.neuron.yale.edu/neuron/
 
 ## ModelDB: computational neuroscience models
