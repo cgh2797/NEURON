@@ -1,7 +1,5 @@
-# NEURON simulation
-NEURON is a simulation environment for modeling individual neurons and networks of neurons.
-
 ## Neuron
+NEURON is a simulation environment for modeling individual neurons and networks of neurons.
 https://www.neuron.yale.edu/neuron/
 
 ## ModelDB: computational neuroscience models
