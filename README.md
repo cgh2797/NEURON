@@ -11,5 +11,4 @@ https://www.neuron.yale.edu/neuron/static/py_doc/index.html
 ## The Neuron Book
 [Guide Book](https://www.amazon.com/NEURON-Book-Nicholas-T-Carnevale/dp/0521115639/ref=sr_1_1?s=books&ie=UTF8&qid=1536419942&sr=1-1&keywords=the+neuron+book)
 
-![41b5baaabll _sx331_bo1 204 203 200_](https://user-images.githubusercontent.com/19909579/45587170-2a61db80-b93d-11e8-9caa-0abb602a2004.jpg)
-
+<img src="https://user-images.githubusercontent.com/19909579/45587170-2a61db80-b93d-11e8-9caa-0abb602a2004.jpg" width="30%">
