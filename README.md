@@ -1,6 +1,11 @@
 ## Neuron
 [NEURON](https://www.neuron.yale.edu/neuron/) is a simulation environment for modeling individual neurons and networks of neurons.
 
+## Why we use "Neuron"??
+It is not only easy simulation tool, but also empirically based.
+
+Many neuroscientist use Neuron, and it has nice model zoo (modelDB)
+
 
 ## ModelDB: computational neuroscience models
 https://senselab.med.yale.edu/ModelDB/
